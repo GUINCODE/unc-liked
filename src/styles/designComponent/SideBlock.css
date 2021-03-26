@@ -1,0 +1,24 @@
+.sideBlock{
+  
+    margin-top: 0px;
+    margin-left: 12px;
+     width:300px;
+     transition: 0.5s;
+  position:fixed;
+  margin-left: -300px;
+  max-height: 600px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  .btn-prev-next {
+    background-color: rgba(3, 1, 1, 0.616);
+    height: 40%;
+    margin-top:30%;
+  }
+  .btn-prev-next:hover{
+    background-color: rgba(3, 1, 1, 0.884);
+  }

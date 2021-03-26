@@ -1,0 +1,18 @@
+@import './designComponent/Header';
+@import './designComponent/Navigation';
+@import './designPages/Accueil.css';
+@import './designPages/Annuaire.css';
+@import './designComponent/Article.css';
+@import './designComponent/SideBlock.css';
+@import './designComponent/PartageExp';
+@import './designComponent/Evenement.css';
+@import './designPages/Annuaire.css';
+
+body{
+    /* background-color:rgb(248, 5, 127); */
+    background-color:rgb(212, 212, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

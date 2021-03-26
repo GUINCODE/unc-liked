@@ -1,0 +1,17 @@
+.evenement{
+    max-height: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(3, 1, 1, 0.3);
+       margin-bottom: 5px;
+}
+.body-card-evenement{
+    margin-top: -35px;
+
+}
+
+.btn-voirPlus{
+    height:fit-content;
+    padding:3px;
+}

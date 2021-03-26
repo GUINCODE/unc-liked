@@ -1,0 +1,11 @@
+.partageExceperience{
+  
+    display: flex;
+    justify-content: space-between;
+   padding-top: 30px;
+  color: beige;
+  margin-top: 15px;
+}
+/* .image-experience{
+    height:100px
+} */

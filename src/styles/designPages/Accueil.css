@@ -1,0 +1,14 @@
+
+.Accueil {
+     font-family: lato;
+    max-width: 1200px;
+   
+       }
+    
+ .accueil-content{
+     display: flex;
+     padding-top: 100px;
+     max-width: 1200px;
+
+ } 
+

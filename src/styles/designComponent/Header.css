@@ -1,0 +1,142 @@
+.entete{
+   
+    display: flex;
+    align-items: center;
+    background-color: #B0C4DE;
+   border: 1px dashed rgb(141, 145, 143);
+  margin-bottom: 10px;
+  margin-top: 1px;
+padding:20px;
+width: 1200px;
+max-height: 95px;
+position:fixed;
+margin-left: auto;
+margin-right: auto
+}
+/* .icon-entete:hover{
+ color:aliceblue
+} */
+.heade-container-right{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.cherche-bloc{
+    width: 20%;
+    /* border: 1px solid violet; */
+}
+.inputCherche{
+    border-radius: 50px  0px 0px 50px;
+    width: 60% ;
+    height: 30px;
+    min-width: 300px; 
+    border: 2px solid rgb(0, 183, 255);
+    font-size: 12px;
+    text-align: center;
+    transition: 0.5s;
+    background: gainsboro;
+}
+.btn-chercher{
+    height: 30px;
+    border-radius: 0px  50px 50px 0px;
+    font-size: 12px;
+    background-color: rgb(46, 170, 170);
+}
+.icons-bar{
+    /* border: 2px solid rgb(200, 255, 0); */
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-around;
+}
+.icon-button{
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.5s;
+}
+
+.bouton:hover{
+    background-color: rgb(9, 20, 70) ;
+   
+}
+.bouton:hover  .icon-entete{
+color: rgb(243, 237, 240);
+
+}
+.icon-butto__badge{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -9px;
+    right: -7px;
+     color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.profil-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+   border: 2px solid rgb(143, 177, 185);
+   }
+   .btn-compte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    transition: 0.8s;
+    max-height: 80px;
+  
+}
+.btn-compte:hover  > div ,.petite-zone-text{
+    border: none
+}
+.petite-zone-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    }
+    .petite-zone-text>p{
+          margin-right: 0px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+   .btn-compte:hover{
+    background-color: rgba(3, 1, 1, 0.3);
+    width:fit-content;
+    height:fit-content;
+   }
+   .btn-compte:hover .xyz{
+       color:aliceblue
+   }
+  
+ 
+  
+.profil{
+    width: 35px;
+    height: 35px;
+}
+
+
+.profil-acces-rapide{
+    /* border: 2px solid rgb(208, 255, 0); */
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+   
+}

@@ -1,0 +1,235 @@
+.article-image{
+max-width: 800px !important;
+max-height: 500px !important;
+}
+.article{
+ background-color: rgba(3, 1, 1, 0.3);
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+border-radius:15px;
+width:57%;
+margin-bottom: 10px;
+/* position:relative; */
+margin-left: 210px;
+margin-right: 210px;
+}
+.text-article{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-article{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+      align-items:center;
+}
+.box-reaction{
+    display: flex;
+    width: 100%;
+  margin-bottom: -15px;
+ 
+    }
+   
+    .space-reaction-anterieure{
+        display:flex;
+       justify-content:flex-start;
+       align-items: center;
+     margin-left: 30px;
+    }
+    .les-nombre-like-icon{
+       display:flex;
+     margin-right:20px;
+    }
+    .les-nombre-commentaires{
+        display:flex;
+       margin-top: -7px;
+        align-items: flex-start;
+    }
+    
+    .nbr-commentaire{
+        margin-left: 18px;
+    }
+.box-like-comment{
+    width: 100%;
+    display: flex;
+      justify-content:center;
+   margin-top: 0px;
+    }
+ .div-profil-commentaire{
+     display: flex;
+     border: 1px solid rgb(9, 20, 70);
+ }
+.btn-like:hover{
+    color: rgb(202, 25, 25);
+        }
+.btn-like:hover span{
+    color: rgb(202, 25, 25);
+}
+.btn-ajout-commentaire:hover{
+    color: rgb(66, 58, 58)
+}
+.box-like-comment>button{
+display: flex;
+justify-content: center;
+align-items: center;
+border:none;
+background:none;
+margin: 5px;
+transition: 0.5s;
+}
+.box-like-comment>button:hover{
+    background-color:silver;
+    border-radius: 10%;
+}
+
+.box-like-comment>button>span{
+    font-size:30px;
+ 
+    }
+    .icon-for-likes{
+        color: rgb(202, 25, 25); 
+        margin-right: 5px;
+    }
+.box-commentaire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius:40px;
+   width: 50%;
+   height: 40px;
+  
+ 
+}
+.box-commentaire>input{
+ border:none;
+ width: 80%;
+  outline:none;
+  word-wrap: break-word;
+font-size: 17px;
+}
+.btn-envoi-commentaire{
+    background:none;
+    border:none;
+    height:40px;
+}
+.send-comment-btn{
+font-size: 30px;
+transition: 0.5s;
+margin-top: 5px;
+border-left: 1px solid rgb(143, 141, 141);
+padding-left: 10px;
+padding-right: 0px;
+}
+.send-comment-btn:hover{
+opacity: 50%;
+}
+.box-profil-commentaire{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+/*  */
+.box-profil-commentaire {
+    
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*  */
+.profil-side-comment{
+    max-width: 40px;
+    border-radius: 50%;
+    border: 2px solid  rgb(9, 20, 70);
+   
+}
+.header-article{
+    display:flex;
+  align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  
+}
+.profil-user-pub{
+      width:60px;
+     height:60px;
+     margin-right: 8px;
+     margin-left: 10px;
+     margin-bottom: 20px;
+  }
+   .profil_pub{
+   width: 100%;
+     height: auto;
+    border-radius:50%;
+    
+   }
+   .nameUser-pub{
+         font-size: 15px;
+         font-weight:bolder;
+         margin-bottom: -2px;
+   }
+   .promoUser-pub{
+       font-weight: normal;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size:16px;
+       padding-left: 10px;
+       padding-right: 10px;
+       margin-left: 5px;
+       border-left: 1px solid black;
+   }
+   .nameUser-pub-profession{
+       font-size: 12px;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       word-wrap: break-word;
+       width: 500px;
+       
+   }
+   .dotPlus{
+       font-size:35px;
+       margin-left: auto;
+       margin-right: 17px;
+    align-self: flex-start;
+   }
+   .dotPlus:hover{
+    color: black;
+   }

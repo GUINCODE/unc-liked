@@ -1,0 +1,13 @@
+
+.annuaire {
+    font-family: lato;
+   max-width: 1200px;
+      }
+   
+.annuaire-content{
+    display: flex;
+    padding-top: 100px;
+    max-width: 1200px;
+    
+} 
+
