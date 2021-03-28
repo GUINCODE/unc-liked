@@ -1,7 +1,7 @@
 
 
  export const valcontrol= window.onscroll=function(){
-     if(document.documentElement.scrollTop<50){ 
+   //   if(document.documentElement.scrollTop<50){ 
       // document.getElementById("menu").style.marginTop="0px"
       // document.getElementById("menu").style.position="unset"
 
@@ -16,7 +16,7 @@
       // document.getElementById("articleID").style.width="800px"
       // document.getElementById("articleID").style.marginRight="unset"
 
-      }
+      // }
     
     
    //    else if(document.documentElement.scrollTop>50){

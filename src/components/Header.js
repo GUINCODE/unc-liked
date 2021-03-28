@@ -34,7 +34,7 @@ class Header extends Component {
                         </div>
                         <div className="evenement-notification">
                             <button type="button" className="icon-button bouton">
-                                <span className="material-icons icon-entete" style={{ fontSize: '26px' }}>local_activity</span>
+                                <span class="material-icons icon-entete" style={{ fontSize: '26px' }}>event</span>
                                 <span className="icon-butto__badge">1</span>
                             </button>
                         </div>
@@ -56,10 +56,10 @@ class Header extends Component {
 
 
                         <button className="btn-compte ">
-                            <span className="material-icons xyz " style={{ fontSize: '30px' }}> grid_view</span>
-                            <div className="petite-zone-text xyz">
+                            <span className="material-icons   grille-acces-rapid " style={{ fontSize: '30px' }}> grid_view</span>
+                            <div className="petite-zone-text ">
                             <p> Acces Rapide </p>
-                            <span className="material-icons down-fleche xyz" style={{ fontSize: '50px' }}>arrow_drop_down</span>
+                            <span className="material-icons down-fleche " style={{ fontSize: '50px' }}>arrow_drop_down</span>
                             </div>
                             
                         </button>
